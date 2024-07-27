@@ -1,0 +1,13 @@
+{
+  "name": "qt6-vcpkg",
+  "version": "1.0.0",
+  "description": "Qt6 Vcpkg Example",
+  "homepage": "https://github.com/wilricknl/Qt6Vcpkg",
+  "dependencies": [
+    "qtbase",
+    {
+      "name": "qt3d",
+      "features": [ "extras", "input", "logic", "render" ]
+    }
+  ]
+}
